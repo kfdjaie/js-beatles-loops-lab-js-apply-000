@@ -6,15 +6,23 @@ function theBeatlesPlay(musicians, instruments){
   return empty;
 }
 
-
+function johnLennonFacts(facts){
+  var i = 0;
+  var jFacts = [];
+  while (i < facts.length){
+    jFacts[i] = facts[i] + "!!!";
+    i++;
+  }
+  return jFacts;
+}
 
 function iLoveTheBeatles(num){
   var empty2 = [];
-  var i = num.length;
+  var i = 0;
   do {
     empty2[i] = "I love the Beatles!";
-    i--;
+    i++;
   }
-  while (i < 15)
+  while (i < num.length && i < 15)
   return empty2;
 }
