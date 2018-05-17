@@ -23,6 +23,6 @@ function iLoveTheBeatles(num){
     empty2[i] = "I love the Beatles!";
     i++;
   }
-  while (i < num.length && i < 15)
+  while (num < 15)
   return empty2;
 }
