@@ -16,4 +16,5 @@ function iLoveTheBeatles(num){
     i++;
   }
   while (i < num.length)
+  return empty2;
 }
