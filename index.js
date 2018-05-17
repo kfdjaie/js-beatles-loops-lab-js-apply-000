@@ -1,18 +1,19 @@
 function theBeatlesPlay(musicians, instruments){
   var empty = [];
-  for (i = 0; i < musicians.length; i++) {
-    empty[i] = musicians[i] + " plays " + instruments[0];
+  for (var i = 0; i < musicians.length; i++) {
+    empty[i] = musicians[i] + " plays " + instruments[i];
   }
+  return empty;
 }
-function johnLennonFacts(facts){
-  while (var i < facts.length){
-    i++;
-    return facts + "!!!";
-  }
-}
+
+
+
 function iLoveTheBeatles(num){
   var empty2 = [];
-  do while () {
+  var i = 0;
+  do {
     empty2[i] = "I love the Beatles!";
+    i++;
   }
+  while (i < num.length)
 }
